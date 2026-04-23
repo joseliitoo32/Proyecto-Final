@@ -1,22 +1,25 @@
-- Inicio:
+1. Inicio 
 
-Calendario de rutinas
-Datos del usuario
-Comparador de rutinas semanales
+Calendario de rutinas: Una vista para ver qué días se ha entrenado. La idea es que se marquen los días que el usuario ha completado alguna rutina para llevar el control.
 
-- Login:
+Datos del usuario: Un resumen rápido con el peso, la edad y la estatura. Así no hay que entrar en ajustes cada vez que quieras ver cómo vas.
 
-Nombre y apellidos
-Peso
-Edad
-Estatura 
-Contraseña
+Comparador semanal: Algo sencillo para ver si esta semana has entrenado más o menos que la anterior.
 
-- Rutinas:
+2. Login y Registro
 
-Pecho
-Espalda
-Pierna
-Hombros
-Brazos
-Abdomen
+Acceso único: Una sola pantalla para entrar. Si metes datos de usuario normal, entras a tu inicio; si metes los de admin, te abre el panel de gestión.
+
+Datos clave: Al registrarse o ver el perfil, se gestiona lo básico: Nombre y apellidos, Peso, Edad, Estatura y Contraseña. Todo esto se guarda directo en la base de datos para usarlo en el resto de la app.
+
+3. Rutinas 
+
+Selección de grupos: Hemos puesto botones para los 6 grupos principales: Pecho, Espalda, Pierna, Hombros, Brazos y Abdomen.
+
+Mezclar entrenos: Hemos pensado que se puedan seleccionar varios a la vez. Si un día te toca "Pecho y Hombro", los marcas los dos y le das a entrenar para que se guarde así en el historial.
+
+4. Panel de Admin 
+
+Control de gente: Una lista para que el admin vea a todos los usuarios que hay apuntados.
+
+Ver estadísticas: El admin puede ver los entrenos que hacen los usuarios y sus datos físicos para ver cómo va el gimnasio en general.
