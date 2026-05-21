@@ -13,8 +13,36 @@ public class Ejercicio {
         this.peso = peso;
     }
 
-    public String getNombre() { return nombre; }
-    public int getSeries() { return series; }
-    public int getRepeticiones() { return repeticiones; }
-    public double getPeso() { return peso; }
+    // --- GETTERS Y SETTERS ---
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getSeries() {
+        return series;
+    }
+
+    public void setSeries(int series) {
+        this.series = series;
+    }
+
+    public int getRepeticiones() {
+        return repeticiones;
+    }
+
+    public void setRepeticiones(int repeticiones) {
+        this.repeticiones = repeticiones;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
 }
